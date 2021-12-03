@@ -1,6 +1,6 @@
 create table tweets (
-	create_at VARCHAR(2000) NOT NULL,
 	id numeric(2000) NOT NULL,
-	lang VARCHAR(2000) NOT NULL,
-	content VARCHAR(2000) NOT NULL
+	phrase VARCHAR(2000) NOT NULL,
+	time_stamp VARCHAR(2000) NOT NULL
+	data_type BOOLEAN(2000) NOT NULL  
 );
